@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS / System metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+*.secret
+
+# Large binary model artifacts & full datasets exceeding GitHub limits (>50MB)
+models/feature_extractor.joblib
+models/VotingEnsemble_best_model.joblib
+data/raw/Phishing_Email.csv
+data/processed/cleaned_emails.csv
+
+# Temporary inspection crops and build logs
+reports/page_inspect*
+reports/page2_top_crop*
+reports/crop_*
+reports/clean_cover_test*
+reports/clean_cover_edited*
+reports/iict_template_temp*
+reports/iict_template_300dpi*
+reports/cover_overlay.pdf
+reports/filled_cover_page.pdf
+reports/IEEE_Report_With_Cover.pdf
